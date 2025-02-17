@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="bg-white p-2 flex items-center shadow-sm">
       <div className="container flex items-center justify-between">
-        <h1 className="text-[26px] sm:text-[28px] md:text-[30px] lg:text-[32px] xl:text-[38px] cursor-pointer text-blue-600 font-bold">56 Школа</h1>
+        <h1 className="text-[28px] md:text-[30px] lg:text-[32px] xl:text-[38px] cursor-pointer text-blue-600 font-bold">56 Школа</h1>
 
         <div className="hidden min-[810px]:flex items-center gap-4">
         <Link className="text-[17px] hover:text-gray-500" href={"/"}>Главная</Link>

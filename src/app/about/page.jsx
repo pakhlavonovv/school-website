@@ -28,7 +28,7 @@ const About = () => {
 
         <section className="mt-12 bg-gray-100 p-6 rounded-lg shadow-lg">
           <h2 className="text-center text-2xl font-semibold text-blue-800">📊 Статистика школы</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6 text-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6 text-center">
             <div className="p-4 bg-white rounded-lg shadow-md">
               <h3 className="text-xl font-semibold text-blue-700">📚 2 987+</h3>
               <p className="text-gray-600">Ученики в год</p>
@@ -36,10 +36,6 @@ const About = () => {
             <div className="p-4 bg-white rounded-lg shadow-md">
               <h3 className="text-xl font-semibold text-blue-700">👨‍🏫 120+</h3>
               <p className="text-gray-600">Учителя и сотрудники</p>
-            </div>
-            <div className="p-4 bg-white rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-blue-700">🏆 35+</h3>
-              <p className="text-gray-600">Лет опыта</p>
             </div>
           </div>
         </section>

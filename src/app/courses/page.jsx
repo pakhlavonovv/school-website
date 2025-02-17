@@ -1,12 +1,12 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
-
+import Courses from '../components/courses'
 const Page = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <div className="flex flex-1 flex-col items-center justify-center">
-        <h1 className="text-[20px]">Курсы пока недоступны</h1>
+        <Courses/>
       </div>
       <Footer />
     </div>
