@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 15px;
+}
