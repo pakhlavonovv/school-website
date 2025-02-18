@@ -4,7 +4,7 @@ const Map = () => {
         <div className="rounded-lg text-center sm:text-left">
           <h2 className="text-xl font-semibold mb-4">📍 56-Адрес школы</h2>
           <div className="flex flex-col gap-4 text-gray-700">
-            <p><strong>📌 Адрес:</strong> Andijon shahri, Mustaqillik MFY, A. Haydarov ko‘chasi, 1B-uy</p>
+            <p><strong>📌 Адрес:</strong> Город Андижан, Мустақиллик МФЙ Шабнам кўчаси 10-уй</p>
             <p><strong>📞 Номер телефона:</strong> +998 99 903-10-15</p>
             <p><strong>⏳ Рабочее время:</strong> Понедельник - Суббота, 08:00 - 18:00</p>
           </div>

@@ -17,8 +17,8 @@ const About = () => {
 
         <section className="grid grid-cols-1 mt-10">
           <div className="bg-white flex flex-col items-center justify-center p-6 shadow-lg rounded-lg">
-            <h2 className="text-xl font-semibold text-blue-700">🎓 Наша миссия</h2>
-            <p className="text-gray-600 mt-2">
+            <h2 className="text-[26px] sm:text-[28px] md:text-[30px] lg:text-[32px] font-semibold text-blue-700">🎓 Наша миссия</h2>
+            <p className="text-gray-600 text-center sm:text-[18px] sm:w-[90%] lg:w-[80%] mt-2">
               Наша школа стремится к созданию благоприятной среды, где каждый ученик получает
               качественное образование, развивает свои таланты и готовится к успешному будущему.
             </p>
@@ -27,14 +27,14 @@ const About = () => {
         </section>
 
         <section className="mt-12 bg-gray-100 p-6 rounded-lg shadow-lg">
-          <h2 className="text-center text-2xl font-semibold text-blue-800">📊 Статистика школы</h2>
+          <h2 className="text-center text-[26px] sm:text-[28px] md:text-[30px] font-semibold text-blue-800">📊 Статистика школы</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6 text-center">
             <div className="p-4 bg-white rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-blue-700">📚 2 987+</h3>
+              <h3 className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-blue-700">📚 2 987+</h3>
               <p className="text-gray-600">Ученики в год</p>
             </div>
             <div className="p-4 bg-white rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold text-blue-700">👨‍🏫 120+</h3>
+              <h3 className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-blue-700">👨‍🏫 120+</h3>
               <p className="text-gray-600">Учителя и сотрудники</p>
             </div>
           </div>

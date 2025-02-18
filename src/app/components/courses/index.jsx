@@ -25,9 +25,9 @@ const Courses = () => {
   }, []);
 
   return (
-    <section className="w-[100%] mx-auto p-6">
+    <section className="w-[100%] mx-auto p-4 sm:p-6">
       <h2 className="text-2xl font-bold text-center mb-6">Курсы</h2>
-      <div className="grid grid-cols-1 min-[380px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1 sm:gap-2 md:gap-3 lg:gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1 sm:gap-2 md:gap-3 lg:gap-4">
         {posts.length > 0 ? (
           posts.map((post) => {
             return (
@@ -51,6 +51,7 @@ const Courses = () => {
                 <h1 className="text-lg font-semibold text-blue-600">{post.startTime} - {post.endTime}</h1>
                 <p className="text-gray-600 text-sm">{post.teacherName}</p>
                 <p className="text-gray-600 text-sm">{post.description}</p>
+                <h1 className="text-lg font-semibold text-blue-600">{post.price} 000 UZS</h1>
               </div>
             </div>
             
