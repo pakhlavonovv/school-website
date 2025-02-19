@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
-        <title>Школа №56 - Официальный сайт</title>
+        <title>Город Андижан - Школа №56 Официальный сайт</title>
         <meta
           name="description"
           content="Официальный сайт школы №56 в городе Андижан. Узнайте о нашей школе, курсах, преподавателях и событиях."
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="Школа 56, Андижан, Образование, Курсы, Учителя, Ученики, Средняя школа" />
         <meta name="author" content="Школа №56, Андижан" />
 
-        <meta property="og:title" content="Школа №56 - Официальный сайт" />
+        <meta property="og:title" content="Город Андижан - Школа №56 Официальный сайт" />
         <meta property="og:description" content="Официальный сайт школы №56 в Андижане. Узнайте о нашей школе, курсах и событиях." />
         <meta property="og:image" content="/banner.jpg" />
         <meta property="og:type" content="website" />

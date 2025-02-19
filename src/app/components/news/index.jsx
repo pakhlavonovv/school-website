@@ -1,16 +1,18 @@
 "use client";
 import { useEffect, useState } from "react";
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 import { db } from "../../../../firebase.config";
 import Image from "next/image";
 import { format } from "date-fns";
 
 const News = () => {
   const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(false)
 
   useEffect(() => {
     const fetchPosts = async () => {
       try {
+        setLoading(true)
         const querySnapshot = await getDocs(collection(db, "posts"));
         const postsArray = querySnapshot.docs.map((doc) => ({
           id: doc.id,
@@ -18,7 +20,9 @@ const News = () => {
         }));
         setPosts(postsArray);
       } catch (error) {
-        console.error("Error fetching posts:", error);
+        console.log(error)
+      } finally {
+        setLoading(false)
       }
     };
 
@@ -69,7 +73,7 @@ const News = () => {
           })
         ) : (
           <p className="text-center text-[20px] text-gray-500">
-            - Новостей нет...
+            {loading ? '- Загрузка...' : '- Новостей нет...'}
           </p>
         )}
       </div>
