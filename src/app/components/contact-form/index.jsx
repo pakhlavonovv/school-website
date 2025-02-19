@@ -12,8 +12,8 @@ const ContactForm = () => {
   const [loading, setLoading] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
 
-  const BOT_TOKEN = "7659209731:AAGOcMGuCudyyHGo8J_ebOaie2CPyrJIy98"; // Укажите ваш токен бота
-  const CHAT_ID = "6207044781"; // Укажите ID чата
+  const BOT_TOKEN = process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN
+  const CHAT_ID = process.env.NEXT_PUBLIC_CHAT_ID
   const API_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
   const handleChange = (e) => {
