@@ -27,21 +27,18 @@ const Header = () => {
           Андижан школы №56
         </h1>
 
-        <div className="hidden min-[1024px]:flex items-center gap-4">
+        <div className="hidden min-[768px]:flex items-center gap-4">
           <Link className="text-[17px] xl:text-[18px] hover:text-gray-500" href={"/"}>Главная</Link>
           <Link className="text-[17px] xl:text-[18px] hover:text-gray-500" href={"/courses"}>Курсы</Link>
           <Link className="text-[17px] xl:text-[18px] hover:text-gray-500" href={"/about"}>О школе</Link>
           <Link className="text-[17px] xl:text-[18px] hover:text-gray-500" href={"/contact"}>Связаться</Link>
         </div>
 
-        {/* <div className="flex items-center gap-2">
-          <Link href={'/contact'} className="hidden md:flex bg-blue-600 border-[1px] border-blue-600 transition-all h-[35px] lg:h-[40px] text-white rounded-lg w-[180px] items-center justify-center hover:bg-transparent hover:text-blue-600">
-            Связаться
-          </Link>
-          <button className="md:hidden" onClick={() => setMenuOpen(true)}>
+        <div className="flex items-center gap-2 md:hidden">
+          <button className="lg:hidden" onClick={() => setMenuOpen(true)}>
             <i className="fa-solid fa-bars fa-xl"></i>
           </button>
-        </div> */}
+        </div>
       </div>
 
       <div className={`fixed top-0 left-0 w-64 h-full bg-gray-200 shadow-lg transform ${menuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out`}>
