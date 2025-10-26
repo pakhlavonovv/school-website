@@ -31,10 +31,10 @@ const About = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6 text-center">
             <div className="p-4 bg-white rounded-lg shadow-md">
               <h3 className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-blue-700">📚 2 987+</h3>
-              <p className="text-gray-600">Ученики в год</p>
+              <p className="text-gray-600">Ученики</p>
             </div>
             <div className="p-4 bg-white rounded-lg shadow-md">
-              <h3 className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-blue-700">👨‍🏫 120+</h3>
+              <h3 className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-blue-700">👨‍🏫 50+</h3>
               <p className="text-gray-600">Учителя и сотрудники</p>
             </div>
           </div>

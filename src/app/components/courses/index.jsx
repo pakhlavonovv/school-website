@@ -58,7 +58,7 @@ const Courses = () => {
             );
           })
         ) : (
-          <p className="text-center text-[20px] text-gray-500">
+          <p className="text-center text-[16px] sm:text-[20px] text-gray-500">
             - Курсы пока не открылись
           </p>
         )}
